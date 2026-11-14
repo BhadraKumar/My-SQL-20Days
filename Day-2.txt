@@ -1,0 +1,56 @@
+Client Server Architecture:
+
+There are 3 major components:
+Client: The role of the client in client-server-arch is to send request to the server. and to get response from the server.
+Server: Server is a software the role of the server in client-server arch is to take request from clients. If the request is a valid request it will generate some request and we can handover that response to the client. If the request is not a valid request it will raise the errors.
+Protocol: It has a set of rules and regulations. the role of the protocol in client-server arch is to send request from client to server.'
+
+What is data, field, record, database ?
+
+Data: Raw facts or figures without context.
+EX: 101,ravi,50000,hyd
+
+Field: Smallest unit of data in a database(column/attribute)
+EX: empid, empname, empsal, empaddress
+
+Record: Collection related fields(row/tuple)
+EX: (101,ravi,50000,hyd)
+
+Database: Organized collection of related records stored together.
+EX: an employee database contain all employee records.
+
+Data vs Database vs DBMS:
+
+Data: Data is a collection of raw facts and figures. It can be a name, number, state, marks.
+
+Database: A database is an organized collection of related data stored together. So that it can be easily accessed, managed and updated.
+EX: Banking database, Hospital database, Online shopping database.
+
+DBMS: DBMS stands for Database Management System.
+A DBMS is a software used to create, store, retrieve, update and manage database.
+EX: MYSQL, ORACLE, DB2, PostgreSQL....etc.
+
+SQL Identifiers & Rules : SQL Identifiers are names used to identify database objects such as database names, table names, column names, view names, index names, stored procedures, trigger names.
+
+While declaring an identifiers we have to follow certain rules and regulations.
+1. The only allowed characters to declare identifiers are A-Z or a-z, $,...
+2. Identifiers are should not start with digit.
+3. Spaces are not consider to declare identifiers.
+4. We can't declare identifiers with reserved words.
+5. The maximum length to declare identifiers are 15.
+
+Examples:
+Valid Identifiers:
+student
+student_name
+_student
+$salary
+Employee_123
+
+Invalid Identifiers:
+123student
+student name
+select- it is a reserved word in SQL
+student-name
+
+
